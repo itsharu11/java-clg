@@ -1,0 +1,30 @@
+class P16_049
+{
+public static void main(String args[])
+{
+P13_754 a=new P13_754 ();
+a.getchars();
+a.charat();
+a.substring();
+}
+void getchars()
+{
+String s1="Hello World";
+char[] c1=new char[5];
+s1.getChars(5,8,c1,0);
+System.out.println(c1);
+}
+void charat()
+{
+String s1="Java Programming";
+System.out.println(s1.charAt(3));
+}
+void substring()
+{
+JAVA (3350703) 166380307554
+PIET-DS-CE Page 19
+String s1="Java Programming";
+System.out.println(s1.substring(2,7));
+System.out.println(s1.substring(2));
+}
+}
